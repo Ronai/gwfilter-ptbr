@@ -80,7 +80,7 @@ Para isso, vamos explorar alguns conceitos de processamento de sinais:
 sectionnames = [
                 'Introdução ao domínio da frequência',
                 'Ruído branco (White Noise)',
-                'Ruído vermleho (Red Noise)',
+                'Ruído vermelho (Red Noise)',
                 'Encontre o som secreto',
                 'Branqueamento (Whitening)',
                 'Dados de ondas gravitacionais',
