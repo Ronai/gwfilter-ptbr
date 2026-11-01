@@ -359,11 +359,9 @@ if page == 6:
     coalescência dos buracos negros. O som é muito breve — algo semelhante a um pequeno **baque**.  
  """)
 
-    st.markdown("")
-    hint = st.checkbox('Precisa de uma dica?')
 
     st.markdown("")
-    hint = st.checkbox('Need a hint?')
+    hint = st.checkbox('Precisa de uma dica?')
 
     if hint:
 
