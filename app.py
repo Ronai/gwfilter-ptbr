@@ -166,7 +166,7 @@ if page == 3:
     Alguns animais, como pássaros e gatinhos, produzem sons mais agudos, enquanto outros, como sapos e leões, 
     produzem sons mais graves. Se o estádio tiver animais de todos os tipos em quantidades semelhantes, o 
     resultado poderia se parecer com um ruído branco. Já se o estádio estiver cheio de animais que produzem 
-    ons graves — por exemplo, muitos sapos — o resultado poderia se parecer com um ruído vermelho. 
+    sons graves — por exemplo, muitos sapos — o resultado poderia se parecer com um ruído vermelho. 
     Você consegue imaginar a diferença?
     
     Uma ideia semelhante pode ser observada no ruído dos detectores LIGO e Virgo. 
@@ -362,18 +362,21 @@ if page == 6:
     st.markdown("")
     hint = st.checkbox('Precisa de uma dica?')
 
+    st.markdown("")
+    hint = st.checkbox('Need a hint?')
+
     if hint:
 
         st.markdown("""
-        Dica: experimente usar um filtro passa-faixa de 30 a 400 Hz, 
-        com o branqueamento ativado. Isso é semelhante ao procedimento utilizado na Figura 1 do
-        [artigo de descoberta do GW150914](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102), também mostrado abaixo:
+        Hint: Experimente usar um filtro passa-banda de 30 a 400 Hz, com o recurso de branqueamento ativado. 
+        Isso é semelhante ao que foi usado na Figura 1 do 
+        [GW150914 discovery paper](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102), também mostrado abaixo:
         """)
         
         st.image('https://journals.aps.org/prl/article/10.1103/PhysRevLett.116.061102/figures/1/large')
 
-st.markdown("""## Sobre este aplicativo
+st.markdown("""## Sobre esse aplicativo.
 
-Este aplicativo exibe dados do LIGO, Virgo e GEO obtidos a partir do Gravitational Wave Open Science Center at 
+Este aplicativo exibe dados do LIGO, Virgo e GEO baixados do Gravitational Wave Open Science Center em 
 [https://gwosc.org](https://gwosc.org).
 """)
